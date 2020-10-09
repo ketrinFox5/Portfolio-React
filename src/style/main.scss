@@ -1,29 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@400;600;700&display=swap');
+
+$primary-color: #b52a74;
+
 body {
-    
+    font-family: 'Piazzolla', serif;
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    color: #000;
 }
 
-li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
 }
 
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;   
+  padding: 0;
 }
 
-a {
-    text-decoration: none;
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, a:hover, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+	outline: none;
+}
+
+
+h3 {
+    font-size: 22px;
+    text-transform: uppercase;
 }
 
 
 .App {
     background: url(../img/zakat-pticy-more.jpg);
+    height: 100vh;
+    padding: 50px 0 100px;
+    // padding: 50px 200px;
+    background: url('../img/21249044f0f0f0f8b3e0b0.jpg') no-repeat top center / cover;
+
+    &__wrap {
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .header {
-    background: url(../img/logo.png) no-repeat center / cover;
+   display: flex;
+   width: 100%;
+   align-self: flex-start;
+   background: transparent;
+   align-items: center;
+   justify-content: space-between;
+
+
+   &__logo img {
+    width: 90px;
+    height: 90px;
+
+    &:hover {
+        opacity: 0.5;
+        transition: all 0.5s ease;
+    }
+   }
+
+   &__menu {
+       display: flex;
+       width: 50%;
+       justify-content: space-between;
+   }
+
+   &__link {
+    color: $primary-color;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &_active, &:hover {
+        color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+   }
+}
+
+.content {
+    width: 100%;
+    padding: 30px 0;
+    // text-align: center;
+}
+
+.offer {
+
+    &__title {
+        color: $primary-color;
+        font-weight: 7700;
+        text-align: center;
+        font-size: 40px;
+        
+        p {
+            margin-top: 15px;
+            font-size: 30px;
+        }
+    }
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    &__text {
+        width: 70%;
+        // text-align: right;
+
+        p {
+            line-height: 30px;
+        }
+
+        a {
+            color: #000;
+            border-bottom: 1px solid #000;
+
+            &:hover {
+                color: $primary-color;
+                border-bottom: none;
+            }
+        }
+    }
+
+    img {
+        width: 20%;
+        border-radius: 10px;
+    }
+}
+
+.work {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 25px;
+    padding-top: 20px;
+
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 50%;
+        border-radius: 50px;
+        margin: 15px 0;
+    }
+    
+    a:hover {
+        opacity: 0.5;
+    }
+}
+
+.footer {
+    width: 100%;
+    align-self: flex-end;
+    background: transparent;
+    padding-top: 30px;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        // margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    a {
+        padding-right: 15px;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    img {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 10px;
+    }
 }

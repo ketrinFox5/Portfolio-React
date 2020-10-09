@@ -1,0 +1,96 @@
+
+{
+    "content" : [
+        {
+            "text" : "Приветствую! Очень рада, что вы попали на эту страничку. Меня зовут Екатерина Кашлева, и я занимаюсь версткой и Frontend разработкой. В этом деле я работаю и развиваюсь с конца 2018 года. Буду рада помочь с созданием кроссбраузерного и адаптивного:",
+            "list" : [
+                "Сайта-визитки",
+                "Лендинга",
+                "Информативного или многостраничного сайта",
+                "Сайта услуги"
+            ],
+            "img" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602241725/portfolio/photo_2020-10-09_14-08-27_mbwxdy.jpg"
+        },
+        {
+            "text" : {
+                "start": "По верстке я окончила ",
+                "linkText" : "курс",
+                "linkURL" : "https://wayup.in/library/course7",
+                "end" : " на платформе WayUp. Технологии, которые я изучила во время обучения:"
+            },
+            "list" : [
+                "HTML/CSS",
+                "Методологию БЭМ",
+                "Bootstrap 4",
+                "Flexbox",
+                "Основы JavaScript",
+                "JQuery"
+            ],
+            "img" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602237716/portfolio/diplom2_dgoo1a.jpg"
+        },
+        {
+            "text" : {
+                "start" : "Затем я успешно закончила ",
+                "linkText" : "курс",
+                "linkURL" : "https://wayup.in/library/course14",
+                "end" : " по JavaScript. Здесь я получила:"
+            },
+            "list" : [
+                "Более углубленное изучения JS",
+                "Работу с препроцессорами (Scss/Sass)",
+                "Знакомство и начало работы с React/React Router",
+                "Опыт работы с API и Node.js"
+            ],
+            "img" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602237709/portfolio/diplom_acakxj.jpg"
+        }  
+    ],
+    "works" : [
+        {
+            "work" : "Legal Advisory Services",
+            "workURL" : "https://legalservices.netlify.app/index.html",
+            "workImg" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602242808/portfolio/legacy_k7kwkl.jpg",
+            "workText" : "Дипломная работа на курсе верстки"
+        },
+        {
+            "work" : "Portfolio Landing",
+            "workURL" : "https://ketrinkashportfolio.netlify.app/",
+            "workImg" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602243349/portfolio/photo_2020-10-09_14-35-35_g7xhtc.jpg",
+            "workText" : "Лендинг портфолио"
+        },
+        {
+            "work" : "News Portal",
+            "workURL": "https://github.com/ketrinFox5/diplom-work-react",
+            "workImg" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602242820/portfolio/novostnik_j2g8sk.jpg",
+            "workText" : "Дипломная работа на курсе JavaScript"
+        },
+        {
+            "work" : "Active Life",
+            "workURL" : "https://activelife.netlify.app/#",
+            "workImg" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602242836/portfolio/activelive_wix0ly.jpg",
+            "workText" : "Одна из работ на курсе верстки"
+        }
+    ],
+    "footer" : [
+        {
+            "link" : "https://www.instagram.com/ketrin_kash/",
+            "icon" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602246958/portfolio/instagram_awfusm.png"
+        },
+        {
+            "link" : "https://vk.com/katerinakashleva",
+            "icon" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602246934/portfolio/vk_hu4lag.png"
+        },
+        {
+            "link" : "https://t.me/ketrinkash",
+            "icon" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602246939/portfolio/telegram_eyixux.png"
+        },
+        {
+            "link" : "https://github.com/ketrinFox5",
+            "icon" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602246944/portfolio/gh_xildvd.png"
+        },
+        {
+            "link" : "mailto:kashleva2009@yandex.ru",
+            "icon" : "https://res.cloudinary.com/dupuljvit/image/upload/v1602246962/portfolio/email_w3ezgf.png"
+        }
+    ]
+}
+
